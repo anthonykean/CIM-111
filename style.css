@@ -1,0 +1,87 @@
+.column {
+  float: left;
+}
+
+.left {
+  width: 20%;
+  margin: 0;
+  padding: 0;
+}
+
+.middle {
+  width: 40%;
+  margin-left: 50px;
+}
+
+.right {
+  width: 40%;
+  margin-left: 100px;
+}
+
+body{
+  font-family: "Roboto",sans-serif;
+  font-size: 14px;
+}
+
+h1{
+  color: white
+  background-color: black;
+  white-space: pre-line;
+  text-align: center;
+  width: 1em;
+  height: 100vh;
+  margin: 0;
+  font-size: 80px;
+}
+
+h2{
+  color: green;
+}
+
+h1{
+  color: green;
+}
+
+h3{
+  color: green;
+}
+
+#colorbar {
+  background-color: orange;
+  height: 75px;
+  width: 2000px;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+  font-style: italic;
+}
+
+a:hover {
+  color: green;
+}
+
+ul{
+  list-style-type: circle;
+  margin-left: 0;
+  padding: 0;
+}
+
+#para{
+  width: 180px;
+}
+
+#order{
+  text-align: left;
+  list-style-type: decimal;
+}
+
+#paragraph{
+  color: gray;
+  font-style: italic;
+}
+
+ol {
+  padding: 0;
+}
