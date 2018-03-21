@@ -1,0 +1,28 @@
+@import "style.css";
+
+body{
+  background-color: gray;
+}
+
+header{
+  width: 700px;
+}
+
+main{
+  width: 700px;
+}
+
+.left {
+  display: block;
+  margin: 0 auto;
+}
+
+.middle{
+  display: block;
+  margin: 0 auto;
+}
+
+.right{
+  display: block;
+  margin: 0 auto;
+}

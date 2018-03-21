@@ -1,0 +1,47 @@
+@import "responsivesite.css";
+
+.container{
+  width:80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: "header"
+                       "main"
+                       "footer"
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 100%;
+}
+
+/* main{
+  grid-area: main;
+  background-color: green;
+  display: grid;
+  grid-template-areas: "box";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  padding-bottom: 20px;
+} */
+
+nav{
+  background-color: orange;
+}
+
+a{
+  color: green;
+}
+
+h1{
+  color: orange;
+}
+
+nav ul li a:hover{
+  color:black;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+
+h2{
+  color: orange;
+}

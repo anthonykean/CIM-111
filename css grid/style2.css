@@ -1,11 +1,11 @@
-.container{
+.container {
   display: grid;
   grid-template-columns: 200px 200px 200px;
   grid-gap: 20px;
 }
 
-.box{
+.box {
   background-color: green;
-  height: 125px;
-  width: 125;
+  height: 100px;
+  width: 100px;
 }

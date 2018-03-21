@@ -18,6 +18,14 @@
   margin-left: 100px;
 }
 
+header{
+  background-color: white;
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
 body{
   font-family: "Roboto",sans-serif;
   font-size: 14px;
@@ -85,3 +93,16 @@ ul{
 ol {
   padding: 0;
 }
+
+<style>
+@@media only screen and (min-width: 768px){
+  body{
+    background-color: green;
+  }
+}
+@@media only screen and (max-width: 600px) {
+  body{
+    background-color: orange
+  }
+}
+</style>
