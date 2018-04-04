@@ -21,6 +21,10 @@
   padding-bottom: 20px;
 } */
 
+main{
+  background-color: green
+}
+
 nav{
   background-color: orange;
 }
@@ -44,4 +48,9 @@ nav ul li{
 
 h2{
   color: orange;
+}
+
+img{
+  height: : 250px;
+  width: 250px;
 }
